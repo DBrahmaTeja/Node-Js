@@ -1,0 +1,6 @@
+//we can  use jde converter to convert the html to pug
+include includes/head.pug
+if showtitle
+    h1 #{title}
+each person, i in people
+    li #{person}

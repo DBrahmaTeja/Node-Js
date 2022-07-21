@@ -1,0 +1,9 @@
+<h1>Hello From EJS</h1>
+
+<% if (showtitle){ %>
+<h2><%= title %></h2>
+<% } %>
+
+<% people.forEach(function(person){ %>
+<li><%= person %></li>
+<% })%>
